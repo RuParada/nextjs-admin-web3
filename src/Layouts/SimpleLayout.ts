@@ -25,10 +25,6 @@ ${({ theme }) => css`
     transition: transform 0.3s ease;
     width: 19rem;
     overflow: hidden;
-    transform: translateX(${theme.dir === 'rtl' && '-'}100%);
-    &.start {
-      transform: translateX(${theme.dir === 'ltr' && '-'}100%);
-    }
 
     &.expanded,
     &.expanded.start {
